@@ -16,10 +16,10 @@ function start() {
 		console.log('Starting slackbot.');
 		new Slackbot(token).listen();
 	}
-	if(creds) {
-		console.log('Starting twitterbot');
-		new Twitterbot(creds).listen();
-	}
+	// if(creds) {
+	// 	console.log('Starting twitterbot');
+	// 	new Twitterbot(creds).listen();
+	// }
 	
 }
 
